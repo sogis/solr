@@ -112,6 +112,7 @@
 <field name="facet" type="string" indexed="true" required="true" stored="true" multiValued="false"/>
 <field name="display" type="string" indexed="false" required="true" stored="true" multiValued="false"/>
 <field name="idfield_meta" type="string" indexed="false" required="false" stored="true" multiValued="false"/>
+<field name="bbox" type="string" indexed="false" required="false" stored="true" multiValued="false"/>
 <field name="dset_children" type="string" indexed="false" required="false" stored="true" multiValued="false"/>
 <field name="dset_info" type="boolean" indexed="false" required="false" stored="true" multiValued="false"/>
 <field name="id" type="string" indexed="true" required="true" stored="true" multiValued="false"/>
