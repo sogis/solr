@@ -262,7 +262,7 @@ war            |  was
 waren          |  were
 warst          |  wast
 was            |  what
-weg            |  away, off
+| weg            |  away, off  Durch Auskommentieren entfernt, aufgrund der doppelten Bedeutung von weg: Weg in Sinne von kleine Strasse soll gefunden werden.
 weil           |  because
 weiter         |  further
 
