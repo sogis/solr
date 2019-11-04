@@ -1,7 +1,7 @@
 <dataConfig>
     <dataSource driver="org.postgresql.Driver" url="jdbc:postgresql://geodb-i.rootso.org/soconfig?sslmode=require" user="USERNAME" password="PASSWORD" />
     <document>
-        <entity name="dataproduct" query="SELECT * FROM gdi_knoten.layer_dataproduct_solr_v">
+        <entity name="foreground" query="SELECT * FROM gdi_knoten.layer_foreground_solr_v">
             <field column="search_1_stem" name="search_1_stem" />
             <field column="search_2_stem" name="search_2_stem" />
             <field column="search_3_stem" name="search_3_stem" />
