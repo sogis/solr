@@ -140,7 +140,7 @@ hatte          |  had
 hatten         |  had
 hier           |  here
 hin            |  there
-hinter         |  behind
+| hinter         |  behind  | Durch Auskommentieren entfernt, damit mit dem Suchbegriff "hinter" die Hintergrundkarten gefunden werden.
 
 ich            |  I
 mich           |  me
@@ -262,7 +262,7 @@ war            |  was
 waren          |  were
 warst          |  wast
 was            |  what
-| weg            |  away, off  Durch Auskommentieren entfernt, aufgrund der doppelten Bedeutung von weg: Weg in Sinne von kleine Strasse soll gefunden werden.
+| weg            |  away, off  Durch Auskommentieren entfernt, aufgrund der doppelten Bedeutung von weg: Weg in Sinne von "kleine Strasse" soll gefunden werden.
 weil           |  because
 weiter         |  further
 
