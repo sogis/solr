@@ -51,8 +51,6 @@
         </entity>
         <entity name="ch_so_afu_wasserbewirtschaftung_weitere_einbauten_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_einbauten_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_erdwaermenutzung_gerda" query="SELECT * FROM afu_erdwaerme_pub.gew_bew_ad_solr_v">
-        </entity>
         <entity name="ch_so_agi_av_bodenbedeckung" query="SELECT * FROM agi_mopublic_pub.mopublic_bodenbedeckung_solr_v">
         </entity>
         <entity name="ch_so_agi_av_gebaeudeadressen_gebaeudeeingaenge" query="SELECT * FROM agi_mopublic_pub.mopublic_gebaeudeadresse_solr_v">        
