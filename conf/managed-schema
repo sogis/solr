@@ -129,6 +129,9 @@
 <copyField source="search_2_stem" dest="search_2_ngram"/>
 <copyField source="search_3_stem" dest="search_3_ngram"/>
 
+<!-- tenant wird von anderen Kunden von sourcepole verwendet. Zwecks "immer gleich" bei uns aufgenommen  -->
+<field name="tenant" type="string" indexed="true" required="true" stored="true" multiValued="false" default="default"/>
+
 <!-- Folgend von Solr verlangte Felder  -->
 <field name="_version_" type="plong" indexed="false" stored="false"/>
 
