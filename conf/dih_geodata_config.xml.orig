@@ -19,6 +19,8 @@
         </entity>
         <entity name="ch_so_afu_bodeninformationen_bodenprofilstandorte" query="SELECT * FROM afu_isboden_pub.bodenprofilstandort_solr_v">
         </entity>
+	<entity name="ch_so_afu_bodeninformationen_bodenprofilstandorte_v2" query="SELECT * FROM afu_bodendaten_nabodat_pub.bodenprofilstandort_solr_v">
+        </entity>
 	<entity name="ch_so_afu_geotope_quelle" query="SELECT * FROM afu_geotope_pub.geotope_quelle_solr_v">
 	</entity>
 	<entity name="ch_so_afu_geotope_hoehle" query="SELECT * FROM afu_geotope_pub.geotope_hoehle_solr_v">
