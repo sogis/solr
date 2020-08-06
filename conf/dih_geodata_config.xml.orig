@@ -87,6 +87,8 @@
         </entity>
         <entity name="ch_so_avt_kantonsstrassen_achsen" query="SELECT * FROM avt_kantonsstrassen_pub.kantonsstrassen_solr_v">
         </entity>
+        <entity name="ch_so_avt_kantonsstrassen_bezugspunkte" query="SELECT * FROM avt_kantonsstrassen_pub.bezugspunkte_solr_v">
+        </entity>
         <entity name="ch_so_avt_oev_haltestellen" query="SELECT * FROM avt_oeffentlicher_verkehr_pub.haltestellen_solr_v">
         </entity>
         <entity name="ch_so_avt_verkehrszaehlstellen" query="SELECT * FROM avt_verkehrszaehlstellen_pub.verkehrszhlstllen_verkehrszaehlstelle_solr_v">
