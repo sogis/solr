@@ -109,5 +109,9 @@
         </entity>
         <entity name="ch_so_awjf_waldplan_waldplantyp" query="SELECT * FROM awjf_wald_pub.wap_bst_typ_solr_v">
         </entity>
+	<entity name="ch_so_agi_av_gb2av_controlling_mutationen" query="SELECT * FROM agi_gb2av_controlling_pub.controlling_av2gb_mutationen_v_solr_v">
+	</entity>
+	<entity name="ch_so_agi_av_gb2av_controlling_vollzugsmeldungen" query="SELECT * FROM agi_gb2av_controlling_pub.controlling_gb2av_vollzugsmeldung_delta_solr_v">
+        </entity>
     </document>
 </dataConfig>
