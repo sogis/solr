@@ -113,5 +113,7 @@
 	</entity>
 	<entity name="ch_so_agi_av_gb2av_controlling_vollzugsmeldungen" query="SELECT * FROM agi_gb2av_controlling_pub.controlling_gb2av_vollzugsmeldung_delta_solr_v">
         </entity>
+	<entity name="ch_so_awjf_waldwanderwege_posten" query="SELECT * FROM awjf_waldwanderwege_pub.waldwanderwege_posten_solr_v">
+        </entity>
     </document>
 </dataConfig>
