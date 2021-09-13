@@ -1,9 +1,9 @@
 <dataConfig>
-    <dataSource driver="org.postgresql.Driver" url="jdbc:postgresql://geodb-i.rootso.org/soconfig?sslmode=require" user="USERNAME" password="PASSWORD" />
+    <dataSource driver="org.postgresql.Driver" url="jdbc:postgresql://geodb-t.rootso.org/simi?sslmode=require" user="USERNAME" password="PASSWORD" />
     <document>
-        <entity name="foreground" query="SELECT * FROM gdi_knoten.layer_foreground_solr_v">
+        <entity name="foreground" query="SELECT * FROM simi.solr_layer_foreground_v">
         </entity>
-        <entity name="background" query="SELECT * FROM gdi_knoten.layer_background_solr_v">
-		</entity>
+        <entity name="background" query="SELECT * FROM simi.solr_layer_background_v">
+        </entity>
     </document>
 </dataConfig>
