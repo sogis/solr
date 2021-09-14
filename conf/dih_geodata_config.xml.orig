@@ -19,18 +19,18 @@
         </entity>
         <entity name="ch_so_afu_bodeninformationen_bodenprofilstandorte" query="SELECT * FROM afu_bodendaten_nabodat_pub.bodenprofilstandort_solr_v">
         </entity>
-	    <entity name="ch_so_afu_geotope_quelle" query="SELECT * FROM afu_geotope_pub.geotope_quelle_solr_v">
-	    </entity>
-	    <entity name="ch_so_afu_geotope_hoehle" query="SELECT * FROM afu_geotope_pub.geotope_hoehle_solr_v">
-	    </entity>
-	    <entity name="ch_so_afu_geotope_erratiker" query="SELECT * FROM afu_geotope_pub.geotope_erratiker_solr_v">
-	    </entity>
-	    <entity name="ch_so_afu_geotope_aufschluss" query="SELECT * FROM afu_geotope_pub.geotope_aufschluss_solr_v">
-	    </entity>
-	    <entity name="ch_so_afu_geotope_landschaftsform" query="SELECT * FROM afu_geotope_pub.geotope_landschaftsform_solr_v">
-	    </entity>
-	    <entity name="ch_so_afu_geotope_fundstelle_grabung_geschuetzt" query="SELECT * FROM afu_geotope_pub.geotope_fundstelle_grabung_gesch_solr_v">
-	    </entity>
+	<entity name="ch_so_afu_geotope_quelle" query="SELECT * FROM afu_geotope_pub.geotope_quelle_solr_v">
+	</entity>
+	<entity name="ch_so_afu_geotope_hoehle" query="SELECT * FROM afu_geotope_pub.geotope_hoehle_solr_v">
+	</entity>
+	<entity name="ch_so_afu_geotope_erratiker" query="SELECT * FROM afu_geotope_pub.geotope_erratiker_solr_v">
+	</entity>
+	<entity name="ch_so_afu_geotope_aufschluss" query="SELECT * FROM afu_geotope_pub.geotope_aufschluss_solr_v">
+	</entity>
+	<entity name="ch_so_afu_geotope_landschaftsform" query="SELECT * FROM afu_geotope_pub.geotope_landschaftsform_solr_v">
+	</entity>
+	<entity name="ch_so_afu_geotope_fundstelle_grabung_geschuetzt" query="SELECT * FROM afu_geotope_pub.geotope_fundstelle_grabung_gesch_solr_v">
+	</entity>
         <entity name="ch_so_afu_fliessgewaesser_netz" query="SELECT * FROM afu_gewisso_pub.gewisso_netz_solr_v">
         </entity>
         <entity name="ch_so_afu_tankanlage" query="SELECT * FROM afu_uplus_pub.tank_solr_v">
@@ -55,7 +55,7 @@
         </entity>
         <entity name="ch_so_afu_wasserbewirtschaftung_versickerungsschacht" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_versickerung_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_versickerungsschacht_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_versickerung_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_versickerungsschacht_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_versickerung_geschuetzt_solr_v">
         </entity>
         <entity name="ch_so_afu_wasserbewirtschaftung_grundwasserwaermenutzung" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_waermenutzung_solr_v">
         </entity>
