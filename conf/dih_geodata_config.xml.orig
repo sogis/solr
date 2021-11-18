@@ -13,9 +13,11 @@
         </entity>
         <entity name="ch_so_afu_altlasten_standorte_geschuetzt" query="SELECT * FROM afu_altlasten_pub.belastete_standorte_altlast4web_solr_v">
         </entity>
-        <entity name="ch_so_afu_gewaesserschutz_lw_standort" query="SELECT * FROM afu_igel_pub.igel_standort_solr_v">
+        <entity name="ch_so_afu_gewaesserschutz_lw_standort_mit_erhebung" query="SELECT * FROM afu_igel_pub_v1.igel_standort_mit_erhebung_solr_v">
         </entity>
-        <entity name="ch_so_afu_gewaesserschutz_lw_stall" query="SELECT * FROM afu_igel_pub.igel_stall_solr_v">
+        <entity name="ch_so_afu_gewaesserschutz_lw_standort_ohne_erhebung" query="SELECT * FROM afu_igel_pub_v1.igel_standort_ohne_erhebung_solr_v">
+        </entity>
+        <entity name="ch_so_afu_gewaesserschutz_lw_stall" query="SELECT * FROM afu_igel_pub_v1.igel_stall_solr_v">
         </entity>
         <entity name="ch_so_afu_bodeninformationen_bodenprofilstandorte" query="SELECT * FROM afu_bodendaten_nabodat_pub.bodenprofilstandort_solr_v">
         </entity>
