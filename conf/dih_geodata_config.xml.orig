@@ -101,8 +101,6 @@
         </entity>
         <entity name="ch_so_awjf_fischereireviere" query="SELECT * FROM afu_gewisso_pub.jfv_fischenz_nutz_solr_v">
         </entity>
-        <entity name="ch_so_awjf_jagdreviere" query="SELECT * FROM awjf_jagd_pub.jagdreviere_solr_v">
-        </entity>
         <entity name="ch_so_awjf_schutzwaldausscheidung" query="SELECT * FROM awjf_wald_pub.sw_funktion_ar_peri_solr_v">
         </entity>
         <entity name="ch_so_awjf_schutzwald_hauptgefahrenpotentiale" query="SELECT * FROM awjf_wald_pub.sw_funktion_ar_natgef_solr_v">
