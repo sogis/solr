@@ -85,8 +85,6 @@
         </entity>
         <entity name="ch_so_alw_bienenstandorte_und_sperrgebiete_bienenstandorte" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.bienenstandorte_solr_v">
         </entity>
-        <entity name="ch_so_alw_bienenstandorte_und_sperrgebiete_bienenstandorte_geschuetzt" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.bienenstandorte_solr_v">
-        </entity>
         <entity name="ch_so_arp_naturreservate_reservate" query="SELECT * FROM arp_naturreservate_pub.naturreservate_reservat_solr_v">
         </entity>
         <entity name="ch_so_avt_kantonsstrassen_achsen" query="SELECT * FROM avt_kantonsstrassen_pub.kantonsstrassen_solr_v">
