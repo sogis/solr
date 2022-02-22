@@ -117,5 +117,17 @@
         </entity>
 	<entity name="ch_so_awjf_waldwanderwege_posten" query="SELECT * FROM awjf_waldwanderwege_pub.waldwanderwege_posten_solr_v">
         </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kulturflaechen_hauptkategorien" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kulturflaechen_hauptkategorien_solr_v">
+        </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kulturflaechen_hauptkategorien_geschuetzt" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kulturflaechen_hauptkategorien_solr_v">
+        </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kulturflaechen_bff_qualitaetsstufe_I" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kulturflaechen_hauptkategorien_solr_v">
+        </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kulturflaechen_bff_qualitaetsstufe_I_geschuetzt" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kulturflaechen_hauptkategorien_solr_v">
+        </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kultur_punktelement_bff_qualitaetsstufe_I" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kultur_punktelement_solr_v">
+        </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kultur_punktelement_bff_qualitaetsstufe_I_geschuetzt" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kultur_punktelement_solr_v">
+        </entity>
     </document>
 </dataConfig>
