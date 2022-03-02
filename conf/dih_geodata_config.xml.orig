@@ -37,55 +37,57 @@
         </entity>
         <entity name="ch_so_afu_tankanlage" query="SELECT * FROM afu_uplus_pub.tank_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_quellen" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_quelle_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_quellen" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_quelle_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_quellen_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_quelle_geschuetzt_solr_v">
+        <entity name="ch_so_afu_gewaesserschutz_quellen" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_quelle_solr_v">
         </entity>
-        <entity name="ch_so_afu_gewaesserschutz_quellen" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_quelle_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_quellen_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_quelle_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_gewaesserschutz_quellen_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_quelle_solr_v">
+        <entity name="ch_so_afu_gewaesserschutz_quellen_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_quelle_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_sondierung" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_sondierung_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_sondierung" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_sondierung_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_sondierung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_sondierung_geschuetzt_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_sondierung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_sondierung_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_gewaesserschutz_fassungen" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_fassung_solr_v">
+        <entity name="ch_so_afu_gewaesserschutz_fassungen" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_fassung_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_fassung" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_fassung_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_fassung" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_fassung_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_fassung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_fassung_geschuetzt_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_fassung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_fassung_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_versickerungsschacht" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_versickerung_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_versickerungsschacht" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_versickerung_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_versickerungsschacht_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_versickerung_geschuetzt_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_versickerungsschacht_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_versickerung_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_grundwasserwaermenutzung" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_waermenutzung_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_grundwasserwaermenutzung" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_waermenutzung_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_grundwasserwaermenutzung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_waermenutzung_geschuetzt_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_grundwasserwaermenutzung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_waermenutzung_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_trinkwasserversorgung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_trinkwasser_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_trinkwasserversorgung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_trinkwasser_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_weitere_einbauten_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub.vegas_einbauten_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_weitere_einbauten_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_einbauten_solr_v">
         </entity>
         <entity name="ch_so_agi_av_bodenbedeckung" query="SELECT * FROM agi_mopublic_pub.mopublic_bodenbedeckung_solr_v">
         </entity>
-        <entity name="ch_so_agi_av_gebaeudeadressen_gebaeudeeingaenge" query="SELECT * FROM agi_mopublic_pub.mopublic_gebaeudeadresse_solr_v">        
-        </entity>  
-        <entity name="ch_so_agi_av_grundstuecke_projektierte" query="SELECT * FROM agi_mopublic_pub.mopublic_grundstueck_proj_nummer_solr_v">    
+        <entity name="ch_so_agi_av_gebaeudeadressen_gebaeudeeingaenge" query="SELECT * FROM agi_mopublic_pub.mopublic_gebaeudeadresse_solr_v">
         </entity>
-        <entity name="ch_so_agi_av_grundstuecke_rechtskraeftig" query="SELECT * FROM agi_mopublic_pub.mopublic_grundstueck_nummer_solr_v">        
-        </entity>        
-        <entity name="ch_so_agi_av_nomenklatur_flurnamen" query="SELECT * FROM agi_mopublic_pub.mopublic_flurname_solr_v">        
-        </entity> 
-        <entity name="ch_so_agi_av_nomenklatur_gelaendenamen" query="SELECT * FROM agi_mopublic_pub.mopublic_gelaendename_solr_v">        
+        <entity name="ch_so_agi_av_grundstuecke_projektierte" query="SELECT * FROM agi_mopublic_pub.mopublic_grundstueck_proj_nummer_solr_v">
         </entity>
-        <entity name="ch_so_agi_bezirksgrenzen" query="SELECT * FROM agi_hoheitsgrenzen_pub.hoheitsgrenzen_bezirksgrenze_solr_v">        
+        <entity name="ch_so_agi_av_grundstuecke_rechtskraeftig" query="SELECT * FROM agi_mopublic_pub.mopublic_grundstueck_nummer_solr_v">
         </entity>
-        <entity name="ch_so_agi_gemeindegrenzen" query="SELECT * FROM agi_hoheitsgrenzen_pub.hoheitsgrenzen_gemeindegrenze_solr_v">        
-        </entity>      
-        <entity name="ch_so_alw_bienenstandorte_und_sperrgebiete_bienenstandorte" query="SELECT * FROM alw_gelan_pub.bienenstandorte_solr_v">
+        <entity name="ch_so_agi_av_nomenklatur_flurnamen" query="SELECT * FROM agi_mopublic_pub.mopublic_flurname_solr_v">
         </entity>
-        <entity name="ch_so_arp_naturreservate_reservate" query="SELECT * FROM arp_naturreservate_pub.naturreservate_reservat_solr_v">    
+        <entity name="ch_so_agi_av_nomenklatur_gelaendenamen" query="SELECT * FROM agi_mopublic_pub.mopublic_gelaendename_solr_v">
+        </entity>
+        <entity name="ch_so_agi_bezirksgrenzen" query="SELECT * FROM agi_hoheitsgrenzen_pub.hoheitsgrenzen_bezirksgrenze_solr_v">
+        </entity>
+        <entity name="ch_so_agi_gemeindegrenzen" query="SELECT * FROM agi_hoheitsgrenzen_pub.hoheitsgrenzen_gemeindegrenze_solr_v">
+        </entity>
+        <entity name="ch_so_alw_bienenstandorte_und_sperrgebiete_bienenstandorte" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.bienenstandorte_solr_v">
+        </entity>
+        <entity name="ch_so_alw_bienenstandorte_und_sperrgebiete_bienenstandorte_geschuetzt" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.bienenstandorte_solr_v">
+        </entity>
+	<entity name="ch_so_arp_naturreservate_reservate" query="SELECT * FROM arp_naturreservate_pub.naturreservate_reservat_solr_v">
         </entity>
         <entity name="ch_so_avt_kantonsstrassen_achsen" query="SELECT * FROM avt_kantonsstrassen_pub.kantonsstrassen_solr_v">
         </entity>
@@ -111,11 +113,23 @@
         </entity>
         <entity name="ch_so_awjf_waldplan_waldplantyp" query="SELECT * FROM awjf_wald_pub.wap_bst_typ_solr_v">
         </entity>
-	    <entity name="ch_so_agi_av_gb2av_controlling_mutationen" query="SELECT * FROM agi_gb2av_controlling_pub.controlling_av2gb_mutationen_v_solr_v">
-	    </entity>
-	    <entity name="ch_so_agi_av_gb2av_controlling_vollzugsmeldungen" query="SELECT * FROM agi_gb2av_controlling_pub.controlling_gb2av_vollzugsmeldung_delta_solr_v">
+	<entity name="ch_so_agi_av_gb2av_controlling_mutationen" query="SELECT * FROM agi_gb2av_controlling_pub.controlling_av2gb_mutationen_v_solr_v">
+	</entity>
+	<entity name="ch_so_agi_av_gb2av_controlling_vollzugsmeldungen" query="SELECT * FROM agi_gb2av_controlling_pub.controlling_gb2av_vollzugsmeldung_delta_solr_v">
         </entity>
-	    <entity name="ch_so_awjf_waldwanderwege_posten" query="SELECT * FROM awjf_waldwanderwege_pub.waldwanderwege_posten_solr_v">
+	<entity name="ch_so_awjf_waldwanderwege_posten" query="SELECT * FROM awjf_waldwanderwege_pub.waldwanderwege_posten_solr_v">
+        </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kulturflaechen_hauptkategorien" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kulturflaechen_hauptkategorien_solr_v">
+        </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kulturflaechen_hauptkategorien_geschuetzt" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kulturflaechen_hauptkategorien_solr_v">
+        </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kulturflaechen_bff_qualitaetsstufe_I" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kulturflaechen_hauptkategorien_solr_v">
+        </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kulturflaechen_bff_qualitaetsstufe_I_geschuetzt" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kulturflaechen_hauptkategorien_solr_v">
+        </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kultur_punktelement_bff_qualitaetsstufe_I" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kultur_punktelement_solr_v">
+        </entity>
+	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kultur_punktelement_bff_qualitaetsstufe_I_geschuetzt" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kultur_punktelement_solr_v">
         </entity>
     </document>
 </dataConfig>
