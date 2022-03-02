@@ -1,5 +1,5 @@
 <dataConfig>
-    <dataSource driver="org.postgresql.Driver" url="jdbc:postgresql://geodb.rootso.org/pub" user="USERNAME" password="PASSWORD" />
+    <dataSource driver="org.postgresql.Driver" url="jdbc:postgresql://geodb-i.rootso.org/pub" user="USERNAME" password="PASSWORD" />
     <document>
         <entity name="ch_so_ada_adagisa_flaechenfundstellen_geschuetzt" query="SELECT * FROM ada_adagisa_pub.flaechenfundstellen_geschuetzt_solr_v">
         </entity>
