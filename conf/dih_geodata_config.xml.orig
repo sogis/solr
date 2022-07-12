@@ -99,7 +99,7 @@
         </entity>
         <entity name="ch_so_awjf_bestandeskarte_wald_flaechen" query="SELECT * FROM awjf_wald_pub.wap_bst_flaechen_solr_v">
         </entity>
-        <entity name="ch_so_awjf_gewaesser_fischereireviere" query="SELECT * FROMawjf_gewaesser_fischerei_pub_v1.jfv_fischenz_nutz_solr_v">
+        <entity name="ch_so_awjf_gewaesser_fischereireviere" query="SELECT * FROM awjf_gewaesser_fischerei_pub_v1.jfv_fischenz_nutz_solr_v">
         </entity>
         <entity name="ch_so_awjf_schutzwaldausscheidung" query="SELECT * FROM awjf_wald_pub.sw_funktion_ar_peri_solr_v">
         </entity>
