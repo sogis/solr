@@ -7,7 +7,7 @@
         </entity>
         <entity name="ch_so_ada_adagisa_punktfundstellen_ungeschuetzt" query="SELECT * FROM ada_adagisa_pub.punktfundstellen_ungeschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_abbaustellen_abbaustellen" query="SELECT * FROM afu_abbaustellen_pub.abbaustelle_solr_v">
+        <entity name="ch_so_afu_abbaustellen" query="SELECT * FROM afu_abbaustellen_pub_v2.abbaustelle_solr_v">
         </entity>
         <entity name="ch_so_afu_altlasten_standorte" query="SELECT * FROM afu_altlasten_pub.belastete_standorte_solr_v">
         </entity>
