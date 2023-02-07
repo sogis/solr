@@ -97,7 +97,7 @@
         </entity>
         <entity name="ch_so_avt_verkehrszaehlstellen" query="SELECT * FROM avt_verkehrszaehlstellen_pub.verkehrszhlstllen_verkehrszaehlstelle_solr_v">
         </entity>
-        <entity name="ch_so_awjf_bestandeskarte_wald_flaechen" query="SELECT * FROM awjf_wald_pub.wap_bst_flaechen_solr_v">
+        <entity name="ch_so_awjf_bestandeskarte_wald_flaechen" query="SELECT * FROM awjf_waldplan_bestandeskarte_pub_v1.waldplan_bestandeskarte_flaechen_solr_v">
         </entity>
         <entity name="ch_so_awjf_gewaesser_fischereireviere" query="SELECT * FROM awjf_gewaesser_fischerei_pub_v1.jfv_fischenz_nutz_solr_v">
         </entity>
@@ -105,11 +105,11 @@
         </entity>
         <entity name="ch_so_awjf_schutzwald_hauptgefahrenpotentiale" query="SELECT * FROM awjf_schutzwald_pub_v1.schutzwald_natgef_solr_v">
         </entity>
-        <entity name="ch_so_awjf_waldplan_waldeigentum" query="SELECT * FROM awjf_wald_pub.wap_bst_eigentum_solr_v">
+        <entity name="ch_so_awjf_waldplan_waldeigentum" query="SELECT * FROM awjf_waldplan_bestandeskarte_pub_v1.waldplan_bestandeskarte_eigentum_solr_v">
         </entity>
-        <entity name="ch_so_awjf_waldplan_waldfunktion" query="SELECT * FROM awjf_wald_pub.wap_bst_funktion_solr_v">
+        <entity name="ch_so_awjf_waldplan_waldfunktion" query="SELECT * FROM awjf_waldplan_bestandeskarte_pub_v1.waldplan_bestandeskarte_funktion_solr_v">
         </entity>
-        <entity name="ch_so_awjf_waldplan_waldplantyp" query="SELECT * FROM awjf_wald_pub.wap_bst_typ_solr_v">
+        <entity name="ch_so_awjf_waldplan_waldplantyp" query="SELECT * FROM awjf_waldplan_bestandeskarte_pub_v1.waldplan_bestandeskarte_typ_solr_v">
         </entity>
 	<entity name="ch_so_agi_av_gb2av_controlling_mutationen" query="SELECT * FROM agi_gb2av_controlling_pub.controlling_av2gb_mutationen_v_solr_v">
 	</entity>
