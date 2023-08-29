@@ -15,7 +15,7 @@
         </entity>
         <entity name="ch_so_ada_archaeologie_punktfundstellen_geschuetzt" query="SELECT * FROM ada_archaeologie_pub_v1.punktfundstellen_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_abbaustellen" query="SELECT * FROM afu_abbaustellen_pub_v2.abbaustelle_solr_v">
+      	<entity name="ch_so_afu_abbaustellen" query="SELECT * FROM afu_abbaustellen_pub_v2.abbaustelle_solr_v">
         </entity>
         <entity name="ch_so_afu_altlasten_standorte" query="SELECT * FROM afu_altlasten_pub_v2.belastete_standorte_solr_v">
         </entity>
