@@ -69,6 +69,12 @@
         </entity>
         <entity name="ch_so_afu_wasserbewirtschaftung_weitere_einbauten_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_einbauten_solr_v">
         </entity>
+        <entity name="ch_so_afu_naturereigniskataster_basisinformation" query="SELECT * FROM afu_naturereigniskataster_pub_v1.afu_naturereigniskataster_basisinformation_solr_v">
+        </entity>
+        <entity name="ch_so_afu_naturereigniskataster_prozessraum_sturz'" query="SELECT * FROM fu_naturereigniskataster_pub_v1.afu_naturereigniskataster_pr_sturz_solr_v">
+        </entity>
+        <entity name="ch_so_afu_naturereigniskataster_prozessraum_wasser" query="SELECT * FROM afu_naturereigniskataster_pub_v1.afu_naturereigniskataster_pr_wasser_solr_v">
+        </entity>
         <entity name="ch_so_agi_av_bodenbedeckung" query="SELECT * FROM agi_mopublic_pub.mopublic_bodenbedeckung_solr_v">
         </entity>
         <entity name="ch_so_agi_av_gebaeudeadressen_gebaeudeeingaenge" query="SELECT * FROM agi_mopublic_pub.mopublic_gebaeudeadresse_solr_v">
