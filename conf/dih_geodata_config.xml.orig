@@ -1,12 +1,6 @@
 <dataConfig>
     <dataSource driver="org.postgresql.Driver" url="jdbc:postgresql://geodb.rootso.org/pub" user="USERNAME" password="PASSWORD" />
     <document>
-        <entity name="ch_so_ada_adagisa_flaechenfundstellen_geschuetzt" query="SELECT * FROM ada_adagisa_pub.flaechenfundstellen_geschuetzt_solr_v">
-        </entity>
-        <entity name="ch_so_ada_adagisa_punktfundstellen_geschuetzt" query="SELECT * FROM ada_adagisa_pub.punktfundstellen_geschuetzt_solr_v">
-        </entity>
-        <entity name="ch_so_ada_adagisa_punktfundstellen_ungeschuetzt" query="SELECT * FROM ada_adagisa_pub.punktfundstellen_ungeschuetzt_solr_v">
-        </entity>
         <entity name="ch_so_ada_archaeologie_flaechenfundstellen" query="SELECT * FROM ada_archaeologie_pub_v1.flaechenfundstellen_solr_v">
         </entity>
         <entity name="ch_so_ada_archaeologie_punktfundstellen" query="SELECT * FROM ada_archaeologie_pub_v1.punktfundstellen_solr_v">
@@ -17,9 +11,9 @@
         </entity>
 	<entity name="ch_so_afu_abbaustellen" query="SELECT * FROM afu_abbaustellen_pub_v2.abbaustelle_solr_v">
         </entity>
-        <entity name="ch_so_afu_altlasten_standorte" query="SELECT * FROM afu_altlasten_pub.belastete_standorte_solr_v">
+        <entity name="ch_so_afu_altlasten_standorte" query="SELECT * FROM afu_altlasten_pub_v2.belastete_standorte_solr_v">
         </entity>
-        <entity name="ch_so_afu_altlasten_standorte_geschuetzt" query="SELECT * FROM afu_altlasten_pub.belastete_standorte_altlast4web_solr_v">
+        <entity name="ch_so_afu_altlasten_standorte_geschuetzt" query="SELECT * FROM afu_altlasten_pub_v2.belastete_standorte_altlast4web_solr_v">
         </entity>
         <entity name="ch_so_afu_gewaesserschutz_lw_standort_mit_erhebung" query="SELECT * FROM afu_igel_pub_v1.igel_standort_mit_erhebung_solr_v">
         </entity>
@@ -74,6 +68,12 @@
         <entity name="ch_so_afu_wasserbewirtschaftung_trinkwasserversorgung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_trinkwasser_solr_v">
         </entity>
         <entity name="ch_so_afu_wasserbewirtschaftung_weitere_einbauten_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_einbauten_solr_v">
+        </entity>
+        <entity name="ch_so_afu_naturereigniskataster_basisinformation" query="SELECT * FROM afu_naturereigniskataster_pub_v1.afu_naturereigniskataster_basisinformation_solr_v">
+        </entity>
+        <entity name="ch_so_afu_naturereigniskataster_prozessraum_sturz" query="SELECT * FROM afu_naturereigniskataster_pub_v1.afu_naturereigniskataster_pr_sturz_solr_v">
+        </entity>
+        <entity name="ch_so_afu_naturereigniskataster_prozessraum_wasser" query="SELECT * FROM afu_naturereigniskataster_pub_v1.afu_naturereigniskataster_pr_wasser_solr_v">
         </entity>
         <entity name="ch_so_agi_av_bodenbedeckung" query="SELECT * FROM agi_mopublic_pub.mopublic_bodenbedeckung_solr_v">
         </entity>
