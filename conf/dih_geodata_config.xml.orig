@@ -13,7 +13,7 @@
         </entity>
         <entity name="ch_so_afu_altlasten_standorte" query="SELECT * FROM afu_altlasten_pub_v2.belasteter_standort_solr_v">
         </entity>
-        <entity name="ch_so_afu_altlasten_standorte_geschuetzt" query="SELECT * FROM afu_altlasten_pub_v2.belasteter_standort_solr_v">
+        <entity name="ch_so_afu_altlasten_standorte_geschuetzt" query="SELECT * FROM afu_altlasten_restricted_pub_v1.belasteter_standort_altlast4web_solr_v">
         </entity>
         <entity name="ch_so_afu_gewaesserschutz_lw_standort_mit_erhebung" query="SELECT * FROM afu_igel_pub_v1.igel_standort_mit_erhebung_solr_v">
         </entity>
