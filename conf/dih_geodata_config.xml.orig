@@ -137,5 +137,7 @@
         </entity>
 	<entity name="ch_so_alw_landwirtschaft_tierhaltung_kultur_punktelement_bff_qualitaetsstufe_I_geschuetzt" query="SELECT * FROM alw_landwirtschaft_tierhaltung_pub_v1.kultur_punktelement_solr_v">
         </entity>
+	<entity name="ch_so_gesa_leistungserbringerstandorte_erreichbarkeitsanalyse" query="SELECT * FROM gesa_leistungserbringerstandorte_analyse_pub_v1.analyse_standort_solr_v">
+        </entity>
     </document>
 </dataConfig>
