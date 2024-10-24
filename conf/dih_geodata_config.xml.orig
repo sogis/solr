@@ -44,7 +44,7 @@
         <entity name="ch_so_afu_gewaesserschutz_quellen" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_quelle_solr_v">
         </entity>
         <entity name="ch_so_afu_wasserbewirtschaftung_quellen_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_quelle_geschuetzt_solr_v">
-        </entity2
+        </entity>
         <entity name="ch_so_afu_gewaesserschutz_quellen_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_quelle_geschuetzt_solr_v">
         </entity>
         <entity name="ch_so_afu_wasserbewirtschaftung_sondierung" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_sondierung_solr_v">
