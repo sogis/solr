@@ -41,35 +41,33 @@
         </entity>
         <entity name="ch_so_afu_tankanlage" query="SELECT * FROM afu_uplus_pub.tank_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_quellen" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_quelle_solr_v">
+        <entity name="ch_so_afu_gewaesserschutz_quellen" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_quelle_solr_v">
         </entity>
-        <entity name="ch_so_afu_gewaesserschutz_quellen" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_quelle_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_quellen_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_quelle_geschuetzt_solr_v">
+        </entity2
+        <entity name="ch_so_afu_gewaesserschutz_quellen_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_quelle_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_quellen_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_quelle_geschuetzt_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_sondierung" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_sondierung_solr_v">
         </entity>
-        <entity name="ch_so_afu_gewaesserschutz_quellen_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_quelle_geschuetzt_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_sondierung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_sondierung_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_sondierung" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_sondierung_solr_v">
+        <entity name="ch_so_afu_gewaesserschutz_fassungen" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_fassung_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_sondierung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_sondierung_geschuetzt_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_fassung" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_fassung_solr_v">
         </entity>
-        <entity name="ch_so_afu_gewaesserschutz_fassungen" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_fassung_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_fassung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_fassung_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_fassung" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_fassung_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_versickerungsschacht" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_versickerung_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_fassung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_fassung_geschuetzt_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_versickerungsschacht_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_versickerung_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_versickerungsschacht" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_versickerung_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_grundwasserwaermenutzung" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_waermenutzung_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_versickerungsschacht_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_versickerung_geschuetzt_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_grundwasserwaermenutzung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_waermenutzung_geschuetzt_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_grundwasserwaermenutzung" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_waermenutzung_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_trinkwasserversorgung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_trinkwasser_solr_v">
         </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_grundwasserwaermenutzung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_waermenutzung_geschuetzt_solr_v">
-        </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_trinkwasserversorgung_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_trinkwasser_solr_v">
-        </entity>
-        <entity name="ch_so_afu_wasserbewirtschaftung_weitere_einbauten_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v1.vegas_einbauten_solr_v">
+        <entity name="ch_so_afu_wasserbewirtschaftung_weitere_einbauten_geschuetzt" query="SELECT * FROM afu_wasserbewirtschaftung_pub_v2.vegas_einbauten_solr_v">
         </entity>
         <entity name="ch_so_afu_naturereigniskataster_basisinformation" query="SELECT * FROM afu_naturereigniskataster_pub_v1.afu_naturereigniskataster_basisinformation_solr_v">
         </entity>
